@@ -23,12 +23,14 @@ public class AuthenticationController {
     private final AuthenticationService service;
 
 
+    //registration requests
     @PostMapping("/register")
     public ResponseEntity<AuthenticationResponse> register(@RequestBody RegisterRequest request) {
         //delegate the registration request to the authentication service
         return ResponseEntity.ok(service.register(request));
     }
 
+    //authentication requests
     @PostMapping("/authenticate")
     public ResponseEntity<AuthenticationResponse> authenticate(@RequestBody AuthenticationRequest request) {
         //delegate the authentication request to the authentication service
