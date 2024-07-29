@@ -19,9 +19,7 @@ This repository contains the back-end code for my personal bug tracker project b
 #### Search Item ####
 <img width="1470" alt="Screenshot 2023-09-01 at 12 35 19 PM" src="https://github.com/gabejones11/BugTracker-FrontEnd/assets/57734022/8b05d802-b88a-40c2-9840-211c62b4f4b9">
 
-### Lessons Gained ###
-This project was tough as I had never worked with React, Java Spring Boot, or MongoDB before.  It took me a long time to figure out what I was doing and there were a lot of times when I thought about quitting and doing a project that was more comfortable for me. I am glad I didn't do that and I have created a comprehensive list of the lessons I learned during the development of this project below.
-
+### Experience Gained ###
 - Creating REST API's
 - Spring MVC
 - React Private Routing
